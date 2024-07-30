@@ -7,4 +7,4 @@ Can be used in market research, customer service, security, and in various other
 Includes a user-friendly graphical interface, which makes it accessible and easy to use
 
 This is a workflow diagram of how The Speech Analyzer works:
-![workflow](Workflow.png)
+![workflow](Workflow.jpg)
