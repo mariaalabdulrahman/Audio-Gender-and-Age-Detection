@@ -1,0 +1,35 @@
+female_child = [262.55, 271.57, 255.52];
+male_child = [91.39, 58.13, 97.46, 10.39, 58.85, 58.76];
+female_ya = [212.37, 213.36, 223.14, 231.97];
+male_ya = [145.25, 144.50, 138.25, 119.12, 140.14];
+female_adult = [249.64, 209.97, 204.39, 246.98];
+male_adult = [105.79, 117.14, 98.96, 144.50, 103.01, 138.25, 62.26];
+female_old = [233.93, 213.36, 227.03];
+male_old = [94.01, 104.72, 102.49];
+figure;
+
+subplot(1,2,1);
+hold on;
+plot(1:length(female_child), female_child, 'bo', 'MarkerSize', 10);
+plot(1:length(female_ya), female_ya, 'rx', 'MarkerSize', 10);
+plot(1:length(female_adult), female_adult, 'gd', 'MarkerSize', 10);
+plot(1:length(female_old), female_old, 'ms', 'MarkerSize', 10);
+hold off;
+xlabel('Sample Index');
+ylabel('Dominant Frequency (Hz)');
+title('Female Dominant Frequency Distribution');
+legend('Child', 'Young Adult', 'Adult', 'Old', 'Location', 'best');
+grid on;
+
+subplot(1,2,2);
+hold on;
+plot(1:length(male_child), male_child, 'bo', 'MarkerSize', 10);
+plot(1:length(male_ya), male_ya, 'rx', 'MarkerSize', 10);
+plot(1:length(male_adult), male_adult, 'gd', 'MarkerSize', 10);
+plot(1:length(male_old), male_old, 'ms', 'MarkerSize', 10);
+hold off;
+xlabel('Sample Index');
+ylabel('Dominant Frequency (Hz)');
+title('Male Dominant Frequency Distribution');
+legend('Child', 'Young Adult', 'Adult', 'Old', 'Location', 'best');
+grid on;
