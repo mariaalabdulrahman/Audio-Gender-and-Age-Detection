@@ -5,3 +5,6 @@ Using signal processing techniques, our analyzer estimates a speaker’s gender 
 Offers real-time analysis for informed decision-making and safer digital interactions
 Can be used in market research, customer service, security, and in various other sectors
 Includes a user-friendly graphical interface, which makes it accessible and easy to use
+
+Here's the workflow diagram of the speech analyzer:
+![workflow](workflowdiagram.jpg)
